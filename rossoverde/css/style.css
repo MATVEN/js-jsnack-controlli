@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0:inherit;box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-box{
+  width: 500px;
+  height: 400px;
+  margin-right: 20px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: red;
+  overflow-y: scroll;
+}
+
+.green-box{
+  width: 500px;
+  height: 400px;
+  margin-left: 20px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: green;
+  overflow-y: scroll;
+}
+
+.btn{
+  padding: 10px;
+  background-color: none;
+  border-radius:1px 50% blue;
+}
